@@ -81,3 +81,13 @@ footer {
     }
     /* Add responsive styles here */
 }
+
+.two-column-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+.column {
+    flex: 1;
+}
